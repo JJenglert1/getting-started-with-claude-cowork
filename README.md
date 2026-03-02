@@ -6,6 +6,30 @@ You don't need to be a developer to use the most powerful AI tool on your deskto
 
 ---
 
+## Table of Contents
+
+| # | Section | What You'll Get |
+|---|---------|----------------|
+| -- | [What Is Cowork?](#what-is-cowork) | Quick explainer + requirements |
+| -- | [Quick Start Checklist](#quick-start-checklist) | One-glance setup flow |
+| **1** | [Import Your Memory](#tip-1-import-your-memory-from-chatgpt) | Switch from ChatGPT in under a minute |
+| **2** | [Global Instructions](#tip-2-set-up-global-instructions) | Copy/paste starter template |
+| **3** | [Plan Mode](#tip-3-use-plan-mode) | The one line that prevents 90% of mistakes |
+| **4** | [Scope Your Folders](#tip-4-scope-your-folders) | Folder structure + context file templates |
+| **5** | [Install Plugins](#tip-5-install-plugins) | Full plugin list + where to start |
+| **6** | [Connect Slack](#tip-6-connect-slack) | Setup + example prompts |
+| **7** | [Connect Google Calendar](#tip-7-connect-google-calendar) | Setup + example prompts |
+| **8** | [Connect Gmail](#tip-8-connect-gmail) | Setup + example prompts |
+| **9** | [Schedule Tasks](#tip-9-schedule-tasks-your-ai-morning-briefing) | Daily briefing prompt ready to paste |
+| **10** | [Connect Notion](#tip-10-connect-notion) | Setup + full-loop workflow |
+| -- | [All Connectors](#all-available-connectors) | Every integration available today |
+| -- | [Safety Essentials](#safety-essentials) | What you need to know before going deep |
+| -- | [Level Up: Claude Code](#ready-to-level-up-start-with-claude-code) | Videos, repos, and next steps |
+| -- | [Official Resources](#official-resources) | Anthropic docs and links |
+| -- | [Community](#join-the-community) | Join 450+ builders |
+
+---
+
 ## What Is Cowork?
 
 Cowork is an agentic desktop tool built into the Claude Desktop app. It gives Claude direct read/write access to folders on your computer, the ability to execute multi-step tasks on its own, and the capacity to coordinate parallel sub-agents — all without a terminal or command line.
