@@ -4,6 +4,12 @@
 
 You don't need to be a developer to use the most powerful AI tool on your desktop. This guide gives you everything from the video — plus copy/paste templates, setup checklists, and resource links — so you can get Cowork running and doing real work today.
 
+This version is updated with the latest walkthrough and high-performing X posts so it matches exactly what JJ is actively teaching and using.
+
+## Watch the Full Video
+
+**YouTube:** [10 Tips for Getting Started with Claude Cowork](https://youtu.be/jvkDGx35rZ8)
+
 ---
 
 ## Table of Contents
@@ -12,6 +18,7 @@ You don't need to be a developer to use the most powerful AI tool on your deskto
 |---|---------|----------------|
 | -- | [What Is Cowork?](#what-is-cowork) | Quick explainer + requirements |
 | -- | [Quick Start Checklist](#quick-start-checklist) | One-glance setup flow |
+| -- | [Viral X Starter Prompt](#viral-x-starter-prompt-copypaste) | The exact setup prompt format |
 | **1** | [Import Your Memory](#tip-1-import-your-memory-from-chatgpt) | Switch from ChatGPT in under a minute |
 | **2** | [Global Instructions](#tip-2-set-up-global-instructions) | Copy/paste starter template |
 | **3** | [Plan Mode](#tip-3-use-plan-mode) | The one line that prevents 90% of mistakes |
@@ -20,8 +27,9 @@ You don't need to be a developer to use the most powerful AI tool on your deskto
 | **6** | [Connect Slack](#tip-6-connect-slack) | Setup + example prompts |
 | **7** | [Connect Google Calendar](#tip-7-connect-google-calendar) | Setup + example prompts |
 | **8** | [Connect Gmail](#tip-8-connect-gmail) | Setup + example prompts |
-| **9** | [Schedule Tasks](#tip-9-schedule-tasks-your-ai-morning-briefing) | Daily briefing prompt ready to paste |
-| **10** | [Connect Notion](#tip-10-connect-notion) | Setup + full-loop workflow |
+| **9** | [Use Skills](#tip-9-use-skills-for-repeatable-high-quality-output) | Train repeatable output quality |
+| **10** | [Schedule Tasks](#tip-10-scheduled-tasks-your-ai-morning-briefing) | Daily briefing prompt ready to paste |
+| -- | [Mobile Workaround](#mobile-workaround-from-x-post) | Use Cowork setup from your phone |
 | -- | [All Connectors](#all-available-connectors) | Every integration available today |
 | -- | [Safety Essentials](#safety-essentials) | What you need to know before going deep |
 | -- | [Level Up: Claude Code](#ready-to-level-up-start-with-claude-code) | Videos, repos, and next steps |
@@ -54,6 +62,48 @@ Cowork is an agentic desktop tool built into the Claude Desktop app. It gives Cl
 - [ ] Install your first plugin
 - [ ] Connect your first tool
 - [ ] Run your first task
+
+---
+
+## Viral X Starter Prompt (Copy/Paste)
+
+This is the starter pattern behind the viral post:
+
+> "Claude Cowork out of the box is good, but with the right context structure, it goes from generic assistant to executive-level partner."
+
+Use this prompt in your Cowork workspace folder:
+
+```text
+I want to set up this folder so you can work with me like an executive-level partner.
+
+Create these markdown files first:
+- about-me.md
+- brand-voice.md
+- working-preferences.md
+
+Then interview me with focused questions and fill each file based on my answers.
+
+After that, create:
+- current-projects.md
+- successful-examples.md
+
+Use those to learn what I'm working on now and what "great output" looks like for me.
+
+When complete, summarize:
+1) what you learned about me
+2) what is still missing
+3) what I should add next to improve output quality.
+```
+
+You can also use the exact prompt style from the video:
+
+```text
+I want to create three markdown files in this folder: about-me, brand-voice, and working-preferences.
+Each should contain information about me, how I like to work, and what you need to collaborate with me effectively.
+
+Create the files, then interview me and use my answers to fill them out.
+If you have questions, ask them one at a time and optimize for practical detail.
+```
 
 ---
 
@@ -314,60 +364,81 @@ spreadsheet in my /outputs folder.
 
 ---
 
-## Tip 9: Schedule Tasks (Your AI Morning Briefing)
+## Tip 9: Use Skills for Repeatable High-Quality Output
 
-Cowork can run tasks on a schedule — no manual trigger needed. Set it once, Claude does the work every day.
+Skills are focused instruction files for specific outcomes (for example: X writing, newsletter writing, meeting prep, proposal writing).
+
+Think of plugins as workflow bundles and skills as precision playbooks.
+
+### Setup
+- Go to **Customize > Skills**
+- Add existing skills or create new ones with `skill-creator`
+- Keep one skill per outcome (don't combine everything into one giant skill)
+
+### What to Build First
+- `x-post-writer` (trained on your best X posts)
+- `email-drafts` (trained on your sent-email tone)
+- `meeting-briefs` (focused on prep docs with action items)
+- `content-repurposer` (video transcript -> X/LinkedIn/newsletter drafts)
+
+### Self-Improve Loop Prompt (Copy/Paste)
+
+```
+Use [skill-name] for this task.
+
+After we finish and I approve the result:
+1) update the skill with what worked in this conversation
+2) store this output in my successful examples folder
+3) summarize what changed in the skill.
+```
+
+This is one of the biggest quality multipliers from JJ's current workflow: don't just generate output, improve the skill after each strong result.
+
+---
+
+## Tip 10: Scheduled Tasks (Your AI Morning Briefing)
+
+Cowork can run tasks on a schedule, so work gets done before you even log in.
 
 ### Setup
 Type `/schedule` in any Cowork task, or click **Scheduled** in the left sidebar.
 
 **Note:** Tasks only run while your computer is awake and the app is open.
 
-### Example: Daily Morning Briefing
+### Daily Briefing Prompt (Copy/Paste)
 
+```text
+Create a scheduled task that runs every weekday at 6:00 AM.
+
+Each run should:
+1) Check Slack for urgent DMs and priority channel updates
+2) Check Gmail for urgent emails I should handle first
+3) Review today's Google Calendar meetings and prep needs
+4) Use my productivity setup to prioritize my day
+
+Output a single morning briefing with:
+- urgent items
+- meeting prep notes
+- conflicts or double bookings
+- top 3 priorities
+
+Save to /Briefings/[today]-morning-brief.md
+and have it ready for me by 8:00 AM.
 ```
-Every weekday at 6:00 AM:
-
-1. Check my Gmail for anything urgent or flagged
-2. Review my Google Calendar for today's meetings
-3. Create a daily briefing doc that includes:
-   - Urgent emails with one-line summaries
-   - Today's meetings with attendees and prep notes
-   - Any conflicts or double-bookings
-   - Top 3 priorities for the day
-
-Save to /Briefings/[today's date]-morning-brief.md
-```
-
-This combines Tips 7 and 8 — and it means you have a finished briefing waiting for you when you walk into the office.
-
-### Other Scheduled Tasks to Try
-- **Monday AM:** Weekly planning doc based on calendar + last week's Slack activity
-- **Friday PM:** Week recap summary with accomplishments and carry-over items
-- **Daily:** Inbox triage — flag urgent items, draft responses to routine ones
 
 ---
 
-## Tip 10: Connect Notion
+## Mobile Workaround from X Post
 
-### Setup
-Customize > Connectors > Notion > Authenticate
+Cowork doesn't have a full mobile parity workflow yet. The current workaround:
 
-### What You Can Do
-- Read databases, pages, projects, and notes from your Notion workspace
-- Pull project status and create priority reports
-- Generate drafts based on your content calendar
-- Combine with other connectors for full-loop workflows
+1. Push your Cowork workspace to a **private GitHub repo**
+2. Open Claude on mobile
+3. Pull that repo context there
+4. Continue lightweight workflows from your phone
+5. Sync back to desktop for heavier execution
 
-### Example Prompt
-```
-Pull my active projects from Notion. Check which ones
-have overdue tasks. Create a priority report with
-next steps for each. Save as a .docx in /outputs.
-```
-
-### The Full Loop
-This is where everything connects: data lives in Notion, Claude reads it, checks Slack for context, drafts deliverables, and can post updates back. One prompt, multiple tools, finished output.
+This is best for continuity and quick edits while away from desktop.
 
 ---
 
