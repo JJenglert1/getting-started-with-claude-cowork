@@ -1,6 +1,6 @@
 # Getting Started with Claude Cowork
 
-**The companion guide to [10 Tips for Getting Started with Claude Cowork](https://www.youtube.com/@10x-Builder)** by JJ Englert.
+**The companion guide to 10 Tips for Getting Started with Claude Cowork** by JJ Englert.
 
 You don't need to be a developer to use the most powerful AI tool on your desktop. This guide gives you everything from the video — plus copy/paste templates, setup checklists, and resource links — so you can get Cowork running and doing real work today.
 
@@ -8,7 +8,7 @@ This version is updated with the latest walkthrough and high-performing X posts 
 
 ## Watch the Full Video
 
-**YouTube:** [10 Tips for Getting Started with Claude Cowork](https://youtu.be/jvkDGx35rZ8)
+[![Watch: 10 Tips for Getting Started with Claude Cowork](https://img.youtube.com/vi/jvkDGx35rZ8/maxresdefault.jpg)](https://youtu.be/jvkDGx35rZ8)
 
 ---
 
@@ -67,42 +67,41 @@ Cowork is an agentic desktop tool built into the Claude Desktop app. It gives Cl
 
 ## Viral X Starter Prompt (Copy/Paste)
 
-This is the starter pattern behind the viral post:
-
-> "Claude Cowork out of the box is good, but with the right context structure, it goes from generic assistant to executive-level partner."
-
-Use this prompt in your Cowork workspace folder:
-
 ```text
-I want to set up this folder so you can work with me like an executive-level partner.
+You are going to help me set up my Claude Cowork workspace so that every future session starts with full context about who I am, what I do, and how I work. We're building a "brain" that makes you useful from the first message.
 
-Create these markdown files first:
-- about-me.md
-- brand-voice.md
-- working-preferences.md
+Here's how this works. You're going to interview me in phases. Ask me questions, then build the files based on my answers. Don't rush. Don't assume. Ask before you build.
 
-Then interview me with focused questions and fill each file based on my answers.
+Phase 0: Plugins and Connections
+Before we build anything, recommend I install the Productivity plugin (task management + daily updates) and the Memory plugin (two-tier context system). Then ask which tools I use daily and help me connect them: Slack, Gmail, Google Calendar, Notion. The more tools connected, the more useful this system becomes.
 
-After that, create:
-- current-projects.md
-- successful-examples.md
+Phase 1: About Me
+Interview me to create an about-me.md file. Ask about my work, background, content channels, professional values, and positioning. Create the file, show it to me, and get my approval before moving on.
 
-Use those to learn what I'm working on now and what "great output" looks like for me.
+Phase 2: Brand Voice
+Analyze any content I've already created. If there's nothing yet, interview me about how I want to sound, phrases I use, phrases I'd never use, creators whose tone I admire, and how my tone shifts by context. Create a brand-voice.md file with voice rules, tone by context, dos and don'ts. Get approval.
 
-When complete, summarize:
-1) what you learned about me
-2) what is still missing
-3) what I should add next to improve output quality.
-```
+Phase 3: Working Preferences
+Interview me about what I want you to help with daily, how I want you to communicate, my biggest workflow pain points, output format preferences, and safety rules. Create a working-preferences.md file. Get approval.
 
-You can also use the exact prompt style from the video:
+Phase 4: Content Strategy (if applicable)
+If I create content, interview me about platforms, target audience, topics, publishing cadence, and content formats. For each platform, ask if I have existing skill files. If not, offer to create them. Create a content-strategy.md file.
 
-```text
-I want to create three markdown files in this folder: about-me, brand-voice, and working-preferences.
-Each should contain information about me, how I like to work, and what you need to collaborate with me effectively.
+Phase 5: Team and Contacts (if applicable)
+If I work with a team, ask about key people, roles, and communication preferences. Check connected tools for team data. Create a team-members.md file.
 
-Create the files, then interview me and use my answers to fill them out.
-If you have questions, ask them one at a time and optimize for practical detail.
+Phase 6: Active Projects
+Interview me about current projects, goals, milestones, and deadlines. Create individual project files in a Current Projects folder.
+
+Phase 7: Memory System
+Update CLAUDE.md with a hot cache of everything we've built. Create a memory/ directory with subfolders for people, projects, and context. Add a glossary.md for acronyms and internal terms.
+
+Phase 8: Skill Files
+Review everything. For any area where I need specific recurring output, offer to create a dedicated skill file with format, voice rules, examples, and a quality checklist.
+
+Rules: Interview me one phase at a time. Show each file before saving. If unsure, ask. Use my existing files and connected tools before asking me to repeat myself. Keep files concise. File names: lowercase, hyphens, .md format. Save everything to my workspace folder.
+
+Start with Phase 0.
 ```
 
 ---
