@@ -431,6 +431,9 @@ and have it ready for me by 8:00 AM.
 
 Cowork doesn't have a full mobile parity workflow yet. The current workaround:
 
+Reference post:
+- https://x.com/JJEnglert/status/2029289995350229151
+
 1. Push your Cowork workspace to a **private GitHub repo**
 2. Open Claude on mobile
 3. Pull that repo context there
