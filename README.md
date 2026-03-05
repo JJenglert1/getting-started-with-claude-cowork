@@ -535,4 +535,4 @@ Check out the full channel: **[youtube.com/@10x-Builder](https://www.youtube.com
 
 ---
 
-*Built by [JJ Englert](https://www.youtube.com/@10x-Builder). Setup guide structure inspired by [@witcheer's definitive Cowork guide](https://x.com/witcheer).*
+*Built by [JJ Englert](https://www.youtube.com/@10x-Builder).*
