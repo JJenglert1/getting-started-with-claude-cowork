@@ -531,7 +531,7 @@ Check out the full channel: **[youtube.com/@10x-Builder](https://www.youtube.com
 
 ## Join the Community
 
-**[Claude Code Community](https://www.skool.com/claude-code-community)** — Private community with 450+ AI engineers and builders sharing workflows, skills, and Cowork setups daily.
+**[Claude Code Community](https://claudecode.community)** — Private community with 450+ AI engineers and builders sharing workflows, skills, and Cowork setups daily.
 
 ---
 
